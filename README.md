@@ -21,14 +21,14 @@ Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Info
 
 #### Beispiel aus der Praxis
 
-1. **Original-Bild**
-	![Original-Bild in WordPress](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/original.jpg)
+## Upload-Bild
+![Original-Bild in WordPress](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/original.jpg)
 
-2. **Durch WordPress erzeugtes Thumbnail**
-	![Durch WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/wordpress-center-150x150.jpg)
+## Durch WordPress erzeugtes Thumbnail
+![Durch WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/wordpress-center-150x150.jpg)
 
-3. **Durch CropEntropy für WordPress erzeugtes Thumbnail**
-	![Durch CropEntropy für WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/crop-entropy-150x150.jpg)
+## Durch CropEntropy erzeugtes Thumbnail
+![Durch CropEntropy für WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/crop-entropy-150x150.jpg)
 
 
 #### Zu Risiken und Nebenwirkungen ####
