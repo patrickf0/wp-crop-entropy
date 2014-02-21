@@ -16,7 +16,7 @@ Es wäre doch schön, wenn der Upload-Prozess schlau genug wäre, selbst zu ents
 
 #### Suche nach der Lösung ####
 
-Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Informationstheorie)) wurde für WordPress ein experimentelles Plugin entwickelt, welches auf [Crop](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm), eine fähige PHP-Bibliothek aufbaut, die das Bild auf die Informationsdichte analysiert, diesen Bereich fokusiert und abschließend ausschneidet. Dazu lesenswerter Artikel „[Image Cropping in PHP using Entropy – Explained](http://envalo.com/image-cropping-php-using-entropy-explained/)“.
+Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Informationstheorie)) wurde für WordPress ein experimentelles Plugin entwickelt, welches auf [Crop](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm), eine fähige PHP-Bibliothek aufbaut, die das Bild auf die Informationsdichte analysiert, diesen Bereich fokusiert und abschließend ausschneidet. Der lesenswerte Artikel „[Image Cropping in PHP using Entropy – Explained](http://envalo.com/image-cropping-php-using-entropy-explained/)“ führt in die Materie ein.
 
 
 #### Zu Risiken und Nebenwirkungen ####
