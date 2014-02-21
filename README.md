@@ -1,12 +1,12 @@
 ## CropEntropy für WordPress ##
 
 
-Werden Bilder in WordPress hochgeladen, so werden Thumbnails nach einem einfachen Prinzip erstellt: Weicht die Proportion des festgelegten Thumbnails von der Portion des Originals ab, so wird ein mittig positionierter Ausschnitt gewählt und als Vorschau gespeichert.
+Jedes in WordPress hochgeladene Bild bekommt meist mehrere Thumbnails in unterschiedlichen Bildgrößen angelegt. Thumbnails finden direkt in WordPress, aber auch im Theme und Plugins Verwendung. Die Generierung dieser Vorschaubilder funktioniert in WordPress nach einem simplen Prinzip: Weicht die festgelegte Proportion des Thumbnails von der Proportion des Originals ab, so wird ein mittig positionierter Ausschnitt gewählt und als Vorschau gespeichert.
 
 
 #### Die „goldene“ Mitte ####
 
-Einen Ausschnitt aus der Mitte der Abbildung zu selektieren muss nicht immer von Vorteil sein: „Abgeschnittene“ Motive und die „verloren“ gegangene Fokussierung resultieren daraus. Einen kleinen Workaround mit der Umpositionierung der Ausschnittfläche wurde im Beitrag „[Startposition des Thumbnail-Ausschnittes steuern](https://plus.google.com/b/114450218898660299759/114450218898660299759/posts/8zTnSougv9c)“ vorgestellt. Doch auch diese Lösung ist nicht perfekt, da nicht auf jedes Foto pauschal anwendbar.
+Einen Ausschnitt aus der Mitte der Abbildung zu selektieren, muss nicht immer von Vorteil sein: „Abgeschnittene“ Motive und die „verloren“ gegangene Fokussierung resultieren daraus. Einen kleinen Workaround mit der Umpositionierung der Ausschnittfläche wurde im Beitrag „[Startposition des Thumbnail-Ausschnittes steuern](https://plus.google.com/b/114450218898660299759/114450218898660299759/posts/8zTnSougv9c)“ vorgestellt. Doch auch diese Lösung ist nicht perfekt, da nicht auf jedes Foto pauschal anwendbar.
 
 
 #### Der Wunsch jeden Bloggers ####
