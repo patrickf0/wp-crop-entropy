@@ -6,7 +6,7 @@ Jedes in WordPress hochgeladene Bild bekommt meist mehrere Thumbnails in untersc
 
 #### Die „goldene“ Mitte ####
 
-Einen Ausschnitt aus der Mitte der Abbildung zu selektieren, muss nicht immer von Vorteil sein: „Abgeschnittene“ Motive und die „verloren“ gegangene Fokussierung resultieren daraus. Einen kleinen Workaround mit der Umpositionierung der Ausschnittfläche wurde im Beitrag „[Startposition des Thumbnail-Ausschnittes steuern](https://plus.google.com/b/114450218898660299759/114450218898660299759/posts/8zTnSougv9c)“ vorgestellt. Doch auch diese Lösung ist nicht perfekt, da nicht auf jedes Foto pauschal anwendbar.
+Einen Ausschnitt aus der Mitte der Abbildung zu selektieren, muss nicht immer von Vorteil sein: „Abgeschnittene“ Motive und die „verloren“ gegangene Fokussierung resultieren daraus. Einen kleinen Workaround mit der Umpositionierung der Ausschnittfläche wurde im Beitrag „[Startposition des Thumbnail-Ausschnittes steuern](https://plus.google.com/b/114450218898660299759/114450218898660299759/posts/8zTnSougv9c)“ vorgestellt. Doch auch diese Lösung ist nicht perfekt, da nicht auf jedes Foto anwendbar.
 
 
 #### Der Wunsch jeden Bloggers ####
@@ -14,7 +14,7 @@ Einen Ausschnitt aus der Mitte der Abbildung zu selektieren, muss nicht immer vo
 Es wäre doch schön, wenn der Upload-Prozess schlau genug wäre, selbst zu entscheiden, was auf dem gesamten Fotomotiv sich als Ausschnitt perfekt eignen würde.
 
 
-#### Der Wunsch jeden Bloggers ####
+#### Suche nach der Lösung ####
 
 Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Informationstheorie)) wurde für WordPress ein experimentelles Plugin entwickelt, welches auf [Crop](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm), eine fähige PHP-Bibliothek aufbaut, die das Bild auf die Informationsdichte analysiert, diesen Bereich fokusiert und abschließend ausschneidet. Dazu lesenswerter Artikel „[Image Cropping in PHP using Entropy – Explained](http://envalo.com/image-cropping-php-using-entropy-explained/)“.
 
