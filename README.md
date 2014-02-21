@@ -19,6 +19,18 @@ Es wäre doch schön, wenn der Upload-Prozess schlau genug wäre, selbst zu ents
 Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Informationstheorie)) wurde für WordPress ein experimentelles Plugin entwickelt, welches auf [Crop](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm), eine fähige PHP-Bibliothek aufbaut, die das Bild auf die Informationsdichte analysiert, diesen Bereich fokusiert und abschließend ausschneidet. Der lesenswerte Artikel „[Image Cropping in PHP using Entropy – Explained](http://envalo.com/image-cropping-php-using-entropy-explained/)“ führt in die Materie ein.
 
 
+#### Beispiel aus der Praxis
+
+1. **Original-Bild**
+	![Original-Bild in WordPress](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/original.jpg)
+
+2. **Durch WordPress erzeugtes Thumbnail**
+	![Durch WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/wordpress-center-150x150.jpg)
+
+3. **Durch CropEntropy für WordPress erzeugtes Thumbnail**
+	![Durch CropEntropy für WordPress erzeugtes Thumbnail](https://github.com/sergejmueller/wp-crop-entropy/raw/master/img/crop-entropy-150x150.jpg)
+
+
 #### Zu Risiken und Nebenwirkungen ####
 
 * Technisch (eher WordPress)-bedingt wird CropEntropy erst dann ausgeführt, wenn die Generierung der Thumbnails in WordPress abgeschlossen ist. Nicht wirklich effizient, da Thumbnails auf diese Weise zwei Mal erstellt werden.
