@@ -5,7 +5,7 @@ Werden Bilder in WordPress hochgeladen, so werden Thumbnails nach einem einfache
 
 Einfach einen Ausschnitt aus der Mitte einer Abbildung zu selektionieren kann nicht immer von Vorteil sein. „Abgeschnittene“ Motive und „verlorener“ Fokus resultieren daraus. Einen kleinen Workaround mit der Umpositionierung der Ausschnittfläche wurde auf [Google+](https://plus.google.com/b/114450218898660299759/114450218898660299759/posts/8zTnSougv9c) gezeigt. Doch auch diese Lösung ist nicht perfekt, da nicht auf jedes Foto anwendbar.
 
-Es wäre doch schön, wenn der Upload-Prozess schlau wäre und selbst entscheiden könnte, was aus dem gesamten Fotomotiv sich perfekt als Ausschnitt eignen würde. Basierend auf der [Entropie-Technik](http://de.wikipedia.org/wiki/Entropie_(Informationstheorie)) habe ich für WordPress ein experimentelles Plugin programmiert, welches auf eine [PHP-Lib](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm) aufbaut, die das Bild auf die Informationsdichte analysiert und den in Frage kommenden Bereich im Bild mittig ausschneidet.
+Es wäre doch schön, wenn der Upload-Prozess schlau wäre und selbst entscheiden könnte, was aus dem gesamten Fotomotiv sich perfekt als Ausschnitt eignen würde. Basierend auf der [Entropie-Technik](http://envalo.com/image-cropping-php-using-entropy-explained/) habe ich für WordPress ein experimentelles Plugin programmiert, welches auf eine [PHP-Lib](https://github.com/tim-reynolds/crop/tree/UpdateEntropyAlgorithm) aufbaut, die das Bild auf die Informationsdichte analysiert und den in Frage kommenden Bereich im Bild mittig ausschneidet.
 
 
 ### Zu Risiken und Nebenwirkungen ###
