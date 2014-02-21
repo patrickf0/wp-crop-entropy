@@ -12,7 +12,7 @@ Es wäre doch schön, wenn der Upload-Prozess schlau wäre und selbst entscheide
 
 * Technisch (eher WordPress)-bedingt wird CropEntropy erst dann ausgeführt, wenn die Generierung der Thumbnails in WordPress abgeschlossen ist. Nicht unbedingt effizient, da Thumbnails auf diese Weise zwei Mal erstellt werden.
 * CropEntropy setzt PHP 5.3 und ImageMagick voraus.
-* Die zugrundeliegende PHP-Lib ist nicht dafür ausgelegt, mehrere Thumbs zu erzeugen, daher wird der Bild-Upload in WordPress verzögert. Das ist auch der Grund für die Erhöhung der Ausführungsdauer im Code.
+* Die zugrundeliegende PHP-Lib ist nicht dafür ausgelegt, mehrere Thumbnails von einem Bild zu erzeugen, daher wird der Bild-Upload in WordPress verzögert. Das ist auch der Grund für die Erhöhung der Ausführungsdauer im Code.
 * Experimentelle Umsetzung, bitte nicht auf Produktivumgebungen einsetzen.
 
 
