@@ -4,7 +4,7 @@ Plugin Name: Crop Entropy
 Description: Cropping upload images based on their entropy
 Author: Sergej M&uuml;ller
 Author URI: http://wpcoder.de
-Version: 0.0.2
+Version: 0.0.3
 */
 
 
@@ -12,10 +12,6 @@ Version: 0.0.2
 if ( ! class_exists('WP') ) {
 	die();
 }
-
-
-/* Evil */
-@ini_set('max_execution_time', 60);
 
 
 /* Lets fun */
@@ -50,6 +46,9 @@ if ( is_admin() && extension_loaded('imagick') ) {
 			if ( empty($upload_data['sizes']) ) {
 				return $upload_data;
 			}
+
+			/* Evil */
+			@ini_set('max_execution_time', 60);
 
 			/* Require libs */
 			require_once (plugin_dir_path(__FILE__). 'src/stojg/crop/Crop.php');
